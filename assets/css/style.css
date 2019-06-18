@@ -1,0 +1,187 @@
+body, html {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(38, 68, 110);
+    background-image: linear-gradient(to bottom right, grey, white);
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    margin: 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+body h1,
+h2,
+h3 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+body p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav {
+    width: 960px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    background: rgb(248, 246, 246);
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px 20px;
+}
+
+nav ul li.nameHeader {
+    background-color: rgb(38, 68, 110);
+    color: azure;
+}
+
+nav ul li h1 {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #666666;
+}
+
+/* section/article CSS */
+table {
+    width: 100%;
+}
+
+table tr td {
+    text-align: center;
+}
+
+
+section {
+    width: 960px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Places table text on top of image as label */
+table td p {
+    position: relative;
+    background-color: rgb(38, 68, 110);
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    left: 46px;
+    bottom: 50px;
+}
+
+.footerBar {
+    width: 960px;
+    background-color: #666666;
+    padding: 20px 0;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.footerStrip {
+    width: 960px;
+    padding: 5px 0;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(38, 68, 110);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Clearfix: To ensure section containers hold all elements */
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Article CSS */
+article {
+    margin: 10px;
+}
+
+article p {
+    color: black;
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+
+section h1 {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.profilePic {
+    float: left;
+    width: 30%;
+}
+
+
+/* Form CSS */
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: rgb(38, 68, 110);
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px 20px;
+    color: white;
+}
+
+/* Hover Nav CSS */
+nav ul li:hover {
+    background: rgb(38, 68, 110);
+    /* height: 100%; */
+    border-color: rgb(38, 68, 110);
+
+}
+
+nav ul li:hover a {
+    color: azure;
+    font-style: none;
+
+
+}
