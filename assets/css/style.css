@@ -1,7 +1,8 @@
 body, html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgb(38, 68, 110);
-    background-image: linear-gradient(to bottom right, grey, white);
+    /* background-image: linear-gradient(to bottom right, grey, white); */
+    background: url("../images/email-pattern.png");
     width: 100%;
     height: 100%;
     font-size: 18px;
