@@ -1,6 +1,10 @@
 .contentSection {
-    /* background-color: rgb(38, 68, 110); */
+    background-color: #969cae;
 
+}
+
+.navColumn {
+    padding-right: 0;
 }
 
 tbody {
@@ -8,9 +12,13 @@ tbody {
 }
 
 .row {
-    padding: 20px 0;
+    justify-content: right;
 }
 
 tr {
     height: 120px;
+}
+
+table {
+    border-collapse: collapse;
 }

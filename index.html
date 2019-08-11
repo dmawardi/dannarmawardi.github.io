@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main</title>
 
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -27,7 +30,7 @@
 </head>
 
 <body>
-    <div class="container contentSection">
+    <div class="container">
         <!-- Header Section -->
         <div class="row">
             <div class="col-12">
@@ -48,7 +51,7 @@
 
         <div class="row">
             <!-- Nav -->
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-md-3 navColumn">
                 <nav>
 
                     <div class="card">
@@ -129,38 +132,51 @@
             </div>
 
             <!-- About Column -->
-            <div class="col-12 col-md-5">
-                <p>Proin consectetur, libero at consequat feugiat, lorem purus gravida justo, ut auctor tortor diam nec
-                    felis. Sed eu massa vel leo sodales porta. Duis rutrum metus dignissim, vehicula nisl in, mollis
-                    felis.
-                    Morbi dignissim eros vel massa lobortis, quis tristique ipsum mattis. Sed in nulla iaculis, iaculis
-                    nunc
-                    et, euismod purus. Cras condimentum commodo massa. Proin ac elit quis massa aliquet pellentesque
-                    pharetra ut leo. Vivamus arcu metus, porta aliquam turpis ac, mollis vestibulum nibh. Aliquam vitae
-                    auctor erat, ut elementum nibh. Duis elementum molestie mi quis molestie. Vivamus nec ipsum erat.
-                </p>
+            <div class="col-12 col-md-4 contentSection">
+                <article>
+                    <p>Proin consectetur, libero at consequat feugiat, lorem purus gravida justo, ut auctor tortor diam
+                        nec
+                        felis. Sed eu massa vel leo sodales porta. Duis rutrum metus dignissim, vehicula nisl in, mollis
+                        felis.
+                        Morbi dignissim eros vel massa lobortis, quis tristique ipsum mattis. Sed in nulla iaculis,
+                        iaculis
+                        nunc
+                        et, euismod purus. Cras condimentum commodo massa. Proin ac elit quis massa aliquet pellentesque
+                        pharetra ut leo. Vivamus arcu metus, porta aliquam turpis ac, mollis vestibulum nibh. Aliquam
+                        vitae
+                        auctor erat, ut elementum nibh. Duis elementum molestie mi quis molestie. Vivamus nec ipsum
+                        erat.
+                    </p>
+                </article>
+
             </div>
 
             <!-- Details Column -->
-            <div class="col-12 col-md-3">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <th scope="row">Name</th>
-                            <td>Dannar Mawardi</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Links</th>
-                            <td>https://dmawardi@github.io https://medium.com/@dmawardi</td>
+            <div class="col-12 col-md-5 contentSection">
+                <div class="container-fluidtable-responsive justify-content-end">
+                        <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Name</th>
+                                        <td>Dannar Mawardi</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Links</th>
+                                        <td><a href='https://dmawardi@github.io'>GitHub</a>
+                                            <br/>
+                                            <a href="https://medium.com/@dmawardi">Medium</a></td>
+            
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Email</th>
+                                        <td>dmawardi@ymail.com</td>
+                                    </tr>
+            
+                                </tbody>
+                            </table>
 
-                        </tr>
-                        <tr>
-                            <th scope="row">Email</th>
-                            <td>dmawardi@ymail.com</td>
-                        </tr>
-
-                    </tbody>
-                </table>
+                </div>
+                
             </div>
         </div>
     </div>
