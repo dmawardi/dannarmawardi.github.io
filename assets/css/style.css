@@ -3,7 +3,11 @@ body {
     height: 100%;
 }
 
-.contentSection {
+.contentSection1 {
+    background-color: #FFFFFF;
+}
+
+.contentSection2 {
     background-color: #FFFFFF;
     border-radius: 0 10px 10px 0;
     padding-top: 30px;
@@ -16,6 +20,11 @@ body {
 
 .navColumn {
     padding-right: 0;
+}
+
+nav .card {
+    border-radius: 10px 0 0 10px;
+    border-right: 0;
 }
 
 tbody {
@@ -37,4 +46,10 @@ table {
 /* Footer */
 footer {
     text-align: center;
+}
+
+/* Article CSS */
+.profilePicture {
+    max-width: 60%;
+    margin-top: 15px;
 }
