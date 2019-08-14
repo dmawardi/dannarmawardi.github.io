@@ -5,13 +5,13 @@ body {
 
 body p {
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .contentSection {
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
-    font-size: 12px;
+    font-size: 13px;
     padding-top: 30px;
 }
 
@@ -21,9 +21,13 @@ body p {
 }
 
 /* Nav and card CSS */
-.navColumn {
+.navCards, .navColumn {
     padding-right: 0;
     padding-left: 0;
+}
+
+.navCards {
+    display: none;
 
 }
 
@@ -77,16 +81,26 @@ footer {
     body p {
         font-size: 13px;
     }
-    
+
     .profilePicture {
         max-width: 60%;
+    }
+
+    /* Hide nav dropdown and use nav cards */
+    .navCards {
+        display: block;
+    
+    }
+
+    .dropdown {
+        display: none;
     }
 
     
 }
 @media (min-width: 992px) {
     .contentSection {
-        font-size: 15px;
+        font-size: 16px;
 
     }
 
