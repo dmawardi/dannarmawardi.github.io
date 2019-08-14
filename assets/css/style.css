@@ -5,13 +5,13 @@ body {
 
 body p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .contentSection {
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
-
+    font-size: 12px;
     padding-top: 30px;
 }
 
@@ -71,21 +71,29 @@ footer {
     
 } */
 
-@media (min-width: 768px) { 
-.contentSection {
-    font-size: 12px;
-    border-radius: 0 10px 10px 10px;
+@media (min-width: 768px) {
+    
+
+    body p {
+        font-size: 13px;
+    }
+    
+    .profilePicture {
+        max-width: 60%;
+    }
+
+    
+}
+@media (min-width: 992px) {
+    .contentSection {
+        font-size: 15px;
+
+    }
+
+    body p {
+        font-size: 15px;
+    }
 
 }
-    
- }
-/* 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-    
- }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    
- } */
+@media (min-width: 1200px) {}
