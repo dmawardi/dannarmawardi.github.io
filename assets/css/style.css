@@ -59,7 +59,7 @@ table {
 }
 
 /* Footer */
-footer {
+footer p {
     text-align: center;
 }
 
@@ -76,8 +76,6 @@ footer {
 } */
 
 @media (min-width: 768px) {
-    
-
     body p {
         font-size: 13px;
     }
