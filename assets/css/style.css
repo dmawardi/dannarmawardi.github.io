@@ -21,7 +21,8 @@ body p {
 }
 
 /* Nav and card CSS */
-.navCards, .navColumn {
+.navCards,
+.navColumn {
     padding-right: 0;
     padding-left: 0;
 }
@@ -87,15 +88,21 @@ footer p {
     /* Hide nav dropdown and use nav cards */
     .navCards {
         display: block;
-    
+
     }
 
     .dropdown {
         display: none;
     }
 
-    
+    .contentSection {
+        border-radius: 0 10px 10px 0;
+
+    }
+
+
 }
+
 @media (min-width: 992px) {
     .contentSection {
         font-size: 16px;
