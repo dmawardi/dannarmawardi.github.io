@@ -77,6 +77,11 @@ footer p {
     border-radius: 10px 0 0 10px;
   }
 
+/* .initiallyHidden {
+    display: none;
+    visibility: hidden;
+    background-color: aqua;
+} */
 
 /* Media Queries */
 /* @media (min-width: 576px) { 
