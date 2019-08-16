@@ -1,9 +1,13 @@
 
 $('.card-body').on('click', function () {
     console.log('clicking a button on nav!:');
-    console.log(this);
+    let urlLink = $(this).attr('data-link');
+
+    console.log($(this).attr('data-link'));
+    window.location.href = urlLink;
 })
 
+// card-body hover effects
 $('.card-body').hover(function () {
     // Mouse Enter
     // Grab ID of hovered element
@@ -24,6 +28,10 @@ $('.card-body').hover(function () {
     $('#' + cardID + ' #notHovered').show();
 })
 
+
+
+// Arguments begin below
+// (When documebt ready)
 $(document).ready(function(){
     console.log('connected! Document ready!');
 

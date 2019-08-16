@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Dannar's Homepage</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -17,10 +21,230 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/821bfa308a.js"></script>
+
 </head>
 
 <body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="row">
+            <div class="col-12">
 
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Dannar Mawardi</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Business Intelligence | Data Analytics | Application Development</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Content row -->
+        <div class="row">
+
+            <!-- Nav -->
+            <div class="col-12 col-md-3 navColumn">
+                <nav>
+                    <div class="dropdown" id="smallScreenDropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Navigation
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="./contact.html">Contact</a>
+                            <a class="dropdown-item" href="./portfolio.html">Portfolio</a>
+                            <a class="dropdown-item" href="#">Resume</a>
+                        </div>
+                    </div>
+
+                    <div class="container navCards">
+                        <div class="card">
+                            <div class="card-body" id="profile" data-link="index.html">
+
+                                <div class="row">
+                                    <div class="col-10">
+
+                                        <h5 class="card-title">Profile</h5>
+                                        <p class="card-text">About Me
+                                        </p>
+                                    </div>
+
+                                    <div class="col-2">
+                                        <i class="fas fa-address-book" id="hovered"></i>
+                                        <i class="far fa-address-book initiallyHidden" id="notHovered"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card nonActivePage">
+                            <div class="card-body" id="contact" data-link="contact.html">
+
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h5 class="card-title">Contact</h5>
+                                        <p class="card-text">Get in Touch
+                                        </p>
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fas fa-address-book" id="hovered"></i>
+                                        <i class="far fa-address-book initiallyHidden" id="notHovered"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="card nonActivePage">
+                            <div class="card-body" id="resume" data-link="resume.html">
+                                <div class="row">
+
+                                    <div class="col-10">
+                                        <h5 class="card-title">Resume</h5>
+                                        <p class="card-text">Work / Educational Experience
+                                        </p>
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fas fa-address-book" id="hovered"></i>
+                                        <i class="far fa-address-book initiallyHidden" id="notHovered"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card nonActivePage">
+                            <div class="card-body" id="portfolio" data-link="portfolio.html">
+                                <div class="row">
+
+                                    <div class="col-10">
+                                        <h5 class="card-title">Folio</h5>
+                                        <p class="card-text">My Works
+                                        </p>
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fas fa-address-book" id="hovered"></i>
+                                        <i class="far fa-address-book initiallyHidden" id="notHovered"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </nav>
+            </div>
+
+            <!-- About Column -->
+            <div class="container col-md-9 contentSection">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 contentSection">
+                        <div class="container text-center">
+                            <article>
+                                <img src="assets/images/profile_pic.jpg" alt="Profile Picture"
+                                    class="img-fluid rounded profilePicture mx-auto">
+                                <p>Data Analyst with a background in web application development and business
+                                    administration. I am versed in a number of programming languages ranging from
+                                    front-end to back-end technologies & machine learning.</p>
+                                <p>My previous business administrative experience allows me to interpret the needs of
+                                    businesses/clients accurately and deliver achievable technology-focused solutions.
+                                    My strong communication skills allows me to guide those I partner with in an easily
+                                    understandable way, allowing all stakeholders to have a grasp of my process.
+                                </p>
+                            </article>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Details Column -->
+                    <div class="col-12 col-md-6 contentSection">
+                        <div class="container-fluidtable-responsive justify-content-end">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Email</th>
+                                        <td>dmawardi@ymail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Links</th>
+                                        <td><a href='https://www.github.com/dmawardi'>GitHub</a>
+                                            <br />
+                                            <a href="https://medium.com/@dmawardi">Medium</a></td>
+
+                                    </tr>
+
+
+                                    <tr>
+                                        <th scope="row">Programming</th>
+                                        <td>
+                                            <ul>
+                                                <li>HTML/CSS</li>
+                                                <li>JS/JQUERY</li>
+                                                <li>SQL</li>
+                                                <li>Python</li>
+
+                                            </ul>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Footer  -->
+        <footer>
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Dannar Mawardi</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Copyright ©</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+
+    </footer>
+
+
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/app.js" type="text/JavaScript"></script>
 </body>
 
 </html>
