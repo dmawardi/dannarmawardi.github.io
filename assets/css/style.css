@@ -83,6 +83,16 @@ footer p {
     margin-bottom: 15px;
 }
 
+/* Dropdown when screen is small CSS */
+#smallScreenDropdown button {
+    width: 100%;
+}
+
+nav > #smallScreenDropdown .dropdown-menu {
+    width: 100%;
+    text-align: center;
+}
+
 /* Hover Effects: Coupled with JQuery hover effects */
 .card-body:hover { 
     background-color: #ffffff;
