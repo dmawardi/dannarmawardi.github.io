@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="container navCards">
-                        <div class="card">
+                        <div class="card nonActivePage">
                             <div class="card-body" id="profile" data-link="index.html">
 
                                 <div class="row">
@@ -88,7 +88,7 @@
 
                             </div>
                         </div>
-                        <div class="card nonActivePage">
+                        <div class="card">
                             <div class="card-body" id="contact" data-link="contact.html">
 
                                 <div class="row">
@@ -152,89 +152,61 @@
             <div class="container col-md-9 contentSection">
                 <div class="row">
 
-                    <div class="col-12 col-md-6 contentSection">
+                    <div class="col-12 col-md-12 contentSection">
                         <div class="container text-center">
-                            <article>
-                                <img src="assets/images/profile_pic.jpg" alt="Profile Picture"
-                                    class="img-fluid rounded profilePicture mx-auto">
-                                <p>Data Analyst with a background in web application development and business
-                                    administration. I am versed in a number of programming languages ranging from
-                                    front-end to back-end technologies & machine learning.</p>
-                                <p>My previous business administrative experience allows me to interpret the needs of
-                                    businesses/clients accurately and deliver achievable technology-focused solutions.
-                                    My strong communication skills allows me to guide those I partner with in an easily
-                                    understandable way, allowing all stakeholders to have a grasp of my process.
-                                </p>
-                            </article>
+                            <form>
+                                <div class="form-group">
+                                    <label for="emailInput">Email address</label>
+                                    <input type="email" class="form-control" id="emailInput"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subjectSelect">Subject</label>
+                                    <select class="form-control" id="subjectSelect">
+                                        <option>Job/Work Opportunity</option>
+                                        <option>Reach Out</option>
+                                        <option>Help Needed on issue/problem</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="commentInput">Comments</label>
+                                    <textarea class="form-control" id="commentInput" rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
                         </div>
 
 
                     </div>
 
-                    <!-- Details Column -->
-                    <div class="col-12 col-md-6 contentSection">
-                        <div class="container-fluidtable-responsive justify-content-end">
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Email</th>
-                                        <td>dmawardi@ymail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Links</th>
-                                        <td><a href='https://www.github.com/dmawardi'>GitHub</a>
-                                            <br />
-                                            <a href="https://medium.com/@dmawardi">Medium</a></td>
-
-                                    </tr>
-
-
-                                    <tr>
-                                        <th scope="row">Programming</th>
-                                        <td>
-                                            <ul>
-                                                <li>HTML/CSS</li>
-                                                <li>JS/JQUERY</li>
-                                                <li>SQL</li>
-                                                <li>Python</li>
-
-                                            </ul>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
-        <!-- Footer  -->
-        <footer>
-            <div class="row">
-                <div class="col-12">
+    <!-- Footer  -->
+    <footer>
+        <div class="row">
+            <div class="col-12">
 
-                    <div class="row">
-                        <div class="col-12">
-                            <p>Dannar Mawardi</p>
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Dannar Mawardi</p>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <p>Copyright ©</p>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright ©</p>
                     </div>
-
                 </div>
 
             </div>
 
-    </div>
+        </div>
+
+        </div>
 
     </footer>
 
