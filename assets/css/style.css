@@ -12,7 +12,7 @@ body p {
     background-color: #FFFFFF;
     border-radius: 10px 10px 10px 10px;
     font-size: 13px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .nonActivePage {
@@ -67,9 +67,16 @@ footer p {
 /* Article CSS */
 .profilePicture {
     max-width: 60%;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
+
+/* Hover Effects: Coupled with JQuery hover effects */
+.card-body:hover { 
+    background-color: #ffffff;
+    border-radius: 10px 0 0 10px;
+  }
+
 
 /* Media Queries */
 /* @media (min-width: 576px) { 
@@ -106,7 +113,7 @@ footer p {
 @media (min-width: 992px) {
     .contentSection {
         font-size: 16px;
-
+        border-radius: 0 10px 10px 10px;
     }
 
     body p {
