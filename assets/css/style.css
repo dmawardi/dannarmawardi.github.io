@@ -40,6 +40,18 @@ nav .card {
 .card-body {
     padding: 15%;
 }
+/* Portfolio Table CSS */
+.portfolioTable p {
+    text-align: center;
+}
+
+.portfolioTable {
+    text-align: center;
+}
+
+.portfolioTable .img-thumbnail {
+    height: 200px;
+}
 
 
 /* Table CSS */
