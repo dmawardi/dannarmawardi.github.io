@@ -1,19 +1,26 @@
-
-
 console.log('connected!');
 
-$('.card-body').on('click', function() {
+$('.card-body').on('click', function () {
     console.log('clicking a button on nav!:');
     console.log(this);
 })
 
-$('.card-body').hover(function(){
+$('.card-body').hover(function () {
     // Mouse Enter
-    $('#hovered').show();
-    $('#notHovered').hide();
+    console.log(this);
+    // Grab ID of hovered element
+    var cardID = $(this).attr('id')
 
-}, function(){
+    // Use card id to select icons within and show/hide
+    $('#' + cardID + ' #hovered').show();
+    $('#' + cardID + ' #notHovered').hide();
+
+}, function () {
+
+    // Grab ID of hovered element
+    var cardID = $(this).attr('id')
+    
     // Mouse Leave
-    $('#hovered').hide();
-    $('#notHovered').show();
+    $('#' + cardID + ' #hovered').hide();
+    $('#' + cardID + ' #notHovered').show();
 })
