@@ -7,32 +7,40 @@ var resumeDetails = {
 
 }
 
-
+// Function to clear text area and replace with input job's details
 function clearAndDisplayJobDetails(jobID) {
     detailTextArea.empty();
     // Declare variables
     var article = $('<article>');
     var p = $('<p>');
 
+    // Place details of job into p
     p.html(resumeDetails[jobID]);
-    article.append(p);
 
+    
+
+    // Append to aritcle and display
+    article.append(p);
     detailTextArea.append(article);
 
 
 }
 
-
+// Upon clicking a table row
 $('tr').on('click', function () {
     console.log('clicking a resume button!');
     let jobID = $(this).attr('data-jobDetail');
     console.log(jobID);
     clearAndDisplayJobDetails(jobID);
+    console.log($(''));
+
+    // Apply a style to the selected item
+    $(this).addClass('detailSelected');
 })
 
 
 
 $(document).ready(function () {
-    console.log('connected to resume!')
+    console.log('connected to resume!');
 
 });

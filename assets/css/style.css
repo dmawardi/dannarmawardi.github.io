@@ -87,6 +87,23 @@ footer p {
 /* Job detail CSS */
 .responsibilityList {
     list-style-type: square;
+    padding-left: 10px;
+}
+
+.detailSelection:hover {
+    color: #FFFFFF;
+    background-color: #969cae;
+}
+
+.detailSelected {
+    color: #FFFFFF;
+    background-color: #969cae;
+}
+
+.detailTextContainer {
+    background-color: #969cae;
+    border-radius: 10px 10px 10px 10px;
+
 }
 
 /* Dropdown when screen is small CSS */
