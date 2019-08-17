@@ -1,9 +1,10 @@
 
+// On Nav card button click
 $('.card-body').on('click', function () {
-    console.log('clicking a button on nav!:');
+    // Assign value of data-link attribute of clicked element to variable
     let urlLink = $(this).attr('data-link');
 
-    console.log($(this).attr('data-link'));
+    // Add to URL for linking
     window.location.href = urlLink;
 })
 
@@ -31,9 +32,8 @@ $('.card-body').hover(function () {
 
 
 // Arguments begin below
-// (When documebt ready)
+// (When document ready)
 $(document).ready(function(){
-    console.log('connected! Document ready!');
 
     // Get array of objects that need to be initially hidden
     let toBeHiddenObjects = $('.initiallyHidden');

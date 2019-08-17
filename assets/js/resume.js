@@ -23,7 +23,7 @@ function resetHighlightOnResumeButtons() {
     let selectionButtons = $('.detailSelection');
 
     // For each result
-    selectionButtons.each(function(){
+    selectionButtons.each(function () {
         // Declare this for use
         let currentButton = $(this);
         // Remove the highlight class from the item
@@ -31,25 +31,25 @@ function resetHighlightOnResumeButtons() {
     })
 }
 
-// Upon clicking a table row
-$('tr').on('click', function () {
-    let jobID = $(this).attr('data-jobDetail');
 
-    // Clear the text area and display the details of the clicked job
-    clearAndDisplayJobDetails(jobID);
-    console.log($('.detailSelection'));
-
-    
-    // Remove all styles for current higlighting
-    resetHighlightOnResumeButtons();
-    // Apply a style to the selected item
-    $(this).addClass('detailSelected');
-
-});
-
-
-
+// Arguments begin here
+// 
+// When document is ready
 $(document).ready(function () {
-    console.log('connected to resume!');
+    // Upon clicking a table row
+    $('tr').on('click', function () {
+        let jobID = $(this).attr('data-jobDetail');
+
+        // Clear the text area and display the details of the clicked job
+        clearAndDisplayJobDetails(jobID);
+        console.log($('.detailSelection'));
+
+        // Remove all styles for current higlighting
+        resetHighlightOnResumeButtons();
+        // Apply a style to the selected item
+        $(this).addClass('detailSelected');
+
+    });
+
 
 });
