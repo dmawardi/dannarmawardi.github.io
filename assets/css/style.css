@@ -1,181 +1,110 @@
+/* #969cae; */
+
 body {
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    height: 100%;
+    line-height: 1rem;
 }
 
-body p {
-    text-align: justify;
-    font-size: 14px;
+.navbar .h1 {
+    font-size: 1.75em;
+    color: #fff;
 }
 
-.contentSection {
-    background-color: #FFFFFF;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 13px;
-    padding-top: 10px;
+nav.navbar .container {
+    padding: 16px;
 }
 
-.nonActivePage {
-    background-color: #969cae;
-
-}
-
-/* Nav and card CSS */
-.navCards,
-.navColumn {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.navCards {
-    display: none;
-
-}
-
-nav .card {
-    border-radius: 10px 0 0 10px;
-    border-right: 0;
-}
-
-.card-body {
-    padding: 15%;
-}
-
-/* Portfolio Table CSS */
-.portfolioTable p {
+/* Masthead CSS */
+.masthead {
+    margin-top: 76px;
+    background-color: darkblue;
     text-align: center;
 }
 
-.portfolioTable {
-    text-align: center;
+.masthead h1 {
+    color: #fff;
 }
 
-.portfolioTable .img-thumbnail {
-    height: 200px;
-}
-
-
-/* Table CSS */
-tbody {
-    text-align: right;
-}
-
-.row {
-    justify-content: right;
-}
-
-tr {
-    height: 120px;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-/* Footer */
-footer p {
-    text-align: center;
-}
-
-/* Article CSS */
-.profilePicture {
-    max-width: 60%;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-
-/* Job detail CSS */
-.responsibilityList {
-    list-style-type: square;
-    padding-left: 10px;
-}
-
-.detailSelection:hover {
-    color: #FFFFFF;
-    background-color: #969cae;
-}
-
-.detailSelected {
-    color: #FFFFFF;
-    background-color: #969cae;
-}
-
-.detailTextContainer {
-    background-color: #969cae;
-    color: #FFFFFF;
-    border-radius: 10px 10px 10px 10px;
-
-}
-
-.detailTextContainer h1 {
+.masthead-subheading {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 3.5rem;
+    line-height: 3rem;
     text-align: center;
 
 }
 
-/* Dropdown when screen is small CSS */
-#smallScreenDropdown button {
+.masthead-avatar {
+    width: 15rem;
+    margin-top: 8rem;
+}
+
+.masthead-heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+/* Divider CSS */
+/* Masthead */
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .25rem;
     width: 100%;
 }
 
-nav>#smallScreenDropdown .dropdown-menu {
+.divider-line {
     width: 100%;
-    text-align: center;
+    max-width: 25rem;
+    height: .25rem;
+    background-color: #fff;
 }
 
-/* Hover Effects: Coupled with JQuery hover effects */
-.card-body:hover {
-    background-color: #ffffff;
-    border-radius: 10px 0 0 10px;
+/* Light section */
+.light-section-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .25rem;
+    width: 100%;
+    margin: 1.25rem 0 1.5rem;
 }
 
-/* .initiallyHidden {
-    display: none;
-    visibility: hidden;
-    background-color: aqua;
-} */
-
-/* Media Queries */
-/* @media (min-width: 576px) { 
-    
-} */
-
-@media (min-width: 768px) {
-    body p {
-        font-size: 13px;
-    }
-
-    .profilePicture {
-        max-width: 60%;
-    }
-
-    /* Hide nav dropdown and use nav cards */
-    .navCards {
-        display: block;
-
-    }
-
-    .dropdown {
-        display: none;
-    }
-
-    .contentSection {
-        border-radius: 0 10px 10px 0;
-
-    }
-
-
+.light-section-divider-line {
+    width: 100%;
+    max-width: 25rem;
+    height: .25rem;
+    background-color: grey;
 }
 
-@media (min-width: 992px) {
-    .contentSection {
-        font-size: 16px;
-        border-radius: 0 10px 10px 10px;
-    }
-
-    body p {
-        font-size: 15px;
-    }
-
+/* dark section */
+.dark-section-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .25rem;
+    width: 100%;
 }
 
-@media (min-width: 1200px) {}
+.dark-section-divider-line {
+    width: 100%;
+    max-width: 25rem;
+    height: .25rem;
+    background-color: #fff;
+}
+
+/* Section CSS */
+section {
+    padding: 6rem 0;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+/* Portfolio Section */
+.portfolio-item {
+    margin-bottom: 30px;
+}
