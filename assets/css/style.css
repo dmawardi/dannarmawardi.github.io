@@ -104,6 +104,15 @@ section {
     line-height: 2.5rem;
 }
 
+.dark-section {
+    background-color: darkblue;
+
+}
+
+.light-section {
+    background-color: #fff;
+}
+
 /* Portfolio Section */
 .portfolio-item {
     margin-bottom: 30px;
