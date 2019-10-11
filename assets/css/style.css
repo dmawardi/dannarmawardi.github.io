@@ -107,6 +107,8 @@ section {
 
 .dark-section {
     background-color: darkblue;
+    color: #fff;
+
 }
 
 .dark-section .section-heading {
