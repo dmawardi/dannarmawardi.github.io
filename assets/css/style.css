@@ -85,6 +85,7 @@ nav.navbar .container {
     align-items: center;
     height: .25rem;
     width: 100%;
+    margin: 1.25rem 0 1.5rem;
 }
 
 .dark-section-divider-line {
@@ -106,7 +107,10 @@ section {
 
 .dark-section {
     background-color: darkblue;
+}
 
+.dark-section .section-heading {
+    color: #fff;
 }
 
 .light-section {
@@ -116,4 +120,20 @@ section {
 /* Portfolio Section */
 .portfolio-item {
     margin-bottom: 30px;
+}
+
+/* Content Section */
+.content-section {
+    color: #fff;
+}
+
+.content-section table {
+    color: #fff;
+}
+
+/* Footer CSS */
+
+/* Copyright section */
+.copyright {
+    padding: 24px 0;
 }
