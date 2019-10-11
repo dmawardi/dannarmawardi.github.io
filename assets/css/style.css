@@ -1,5 +1,3 @@
-/* #969cae; */
-
 body {
     line-height: 1rem;
 }
@@ -11,6 +9,12 @@ body {
 
 nav.navbar .container {
     padding: 16px;
+}
+
+/* Navbar CSS */
+
+.button-section button {
+    margin-right: 5px;
 }
 
 /* Masthead CSS */
