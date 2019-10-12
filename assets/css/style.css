@@ -1,5 +1,6 @@
 body {
     line-height: 1rem;
+    font-family: 'Hepta Slab', 'Playfair Display', serif;
 }
 
 .navbar .h1 {
@@ -125,7 +126,11 @@ section {
 
 /* Portfolio Section */
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-height: 15rem;
 }
 
 /* Content Section */
@@ -135,6 +140,11 @@ section {
 
 .content-section table {
     color: #fff;
+}
+
+article {
+    /* letter-spacing: 0.1em; */
+    line-height: 1.2em;
 }
 
 /* Footer CSS */
