@@ -21,7 +21,7 @@ nav.navbar .container {
 /* Masthead CSS */
 .masthead {
     margin-top: 76px;
-    background-color: darkblue;
+    background-color: #28a745;
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ section {
 }
 
 .dark-section {
-    background-color: darkblue;
+    background-color: #28a745;
     color: #fff;
 
 }
@@ -127,6 +127,9 @@ section {
 /* Portfolio Section */
 .portfolio-item {
     margin-bottom: 40px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
 }
 
 .portfolio-item img {
@@ -143,11 +146,20 @@ section {
 }
 
 article {
-    /* letter-spacing: 0.1em; */
     line-height: 1.2em;
 }
 
+/* Same page link CSS */
+.pageLink {
+    position: relative;
+    bottom: 150px;
+}
+
 /* Footer CSS */
+/* Card CSS */
+.card-body ul li {
+    color: black;
+}
 
 /* Copyright section */
 .copyright {
